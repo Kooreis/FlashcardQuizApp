@@ -1,7 +1,4 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
-
-public class FlashcardQuizApp {
-    private Map<String, String> flashcards = new HashMap<>();
-}
+public static void main(String[] args) {
+        FlashcardQuizApp app = new FlashcardQuizApp();
+        app.run();
+    }
